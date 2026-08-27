@@ -34,7 +34,7 @@ function parkingPage(host) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Hosted by Leyun Digital｜樂雲數位</title>
+<title>Hosted by Prisvalis LTD.｜算力有限公司</title>
 <style>
   * { margin: 0; box-sizing: border-box; }
   body {
@@ -68,10 +68,10 @@ function parkingPage(host) {
   <main class="card">
     <span class="badge">Hosted by Prisvalis</span>
     <div class="host">${safeHost}</div>
-    <p>此網域由樂雲數位代管，目前尚未設定網站內容。</p>
+    <p>此網域由算力有限公司代管，目前尚未設定網站內容。</p>
     <p>This domain is hosted by Prisvalis and has not been configured yet.</p>
     <div class="divider"></div>
-    <p class="brand"><strong>樂雲數位有限公司</strong>&nbsp;Prisvalis LTD.</p>
+    <p class="brand"><strong>算力有限公司</strong>&nbsp;Prisvalis LTD.</p>
     <a class="btn" href="https://www.prisvalis.com">造訪樂雲官網 / Visit prisvalis.com</a><br>
     <a class="link" href="mailto:support@mail.prisvalis.com">support@mail.prisvalis.com</a>
   </main>
