@@ -1,8 +1,8 @@
 name = "grab-a-seat"
 compatibility_date = "2026-08-27"
-pages_build_output_dir = "public"
+main = "src/index.js"
 
-# 官網聯絡表單寄信用的 binding，對應 public/_worker.js 內的 env.EMAIL.send(...)
+# 官網聯絡表單寄信用的 binding，對應 src/index.js 內的 env.EMAIL.send(...)
 # 需求：
 #   1. 寄件網域（mail.prisvalis.com）需先在 Cloudflare Email Service 完成 DNS 驗證
 #   2. 收件位址需先在 Email Routing / Email Service 驗證，否則寄送會被拒絕

@@ -1,5 +1,5 @@
 // Prisvalis 網域停放頁 + 官網聯絡表單
-// 以 Cloudflare Pages Advanced Mode 部署（本檔案即為 Pages 的 _worker.js 入口）
+// 以 Cloudflare Workers 部署（本檔案即為 Worker 的 main 進入點）
 // 部署方式請見 README.md
 
 const ALLOWED_ORIGINS = ["https://prisvalis.com", "https://www.prisvalis.com"];
