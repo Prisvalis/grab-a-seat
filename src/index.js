@@ -72,7 +72,7 @@ function parkingPage(host) {
     <p>This domain is hosted by Prisvalis and has not been configured yet.</p>
     <div class="divider"></div>
     <p class="brand"><strong>算力有限公司</strong>&nbsp;Prisvalis LTD.</p>
-    <a class="btn" href="https://www.prisvalis.com">造訪樂雲官網 / Visit prisvalis.com</a><br>
+    <a class="btn" href="https://www.prisvalis.com">造訪官網 / Visit prisvalis.com</a><br>
     <a class="link" href="mailto:support@mail.prisvalis.com">support@mail.prisvalis.com</a>
   </main>
 </body>
