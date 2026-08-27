@@ -1,0 +1,13 @@
+{
+  "name": "grab-a-seat",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Prisvalis 網域停放頁與官網聯絡表單，透過 Cloudflare Pages Advanced Mode 部署",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public"
+  },
+  "devDependencies": {
+    "wrangler": "^4.127.0"
+  }
+}
