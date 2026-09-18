@@ -135,13 +135,9 @@ async function handleContact(request, env) {
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request) {
     const url = new URL(request.url);
     const host = url.hostname.toLowerCase();
-
-    if (url.pathname === "/api/contact" || host.endsWith(".workers.dev") || host.endsWith(".pages.dev")) {
-      return handleContact(request, env);
-    }
     if (ASSIGNED_HOSTS.has(host)) {
       return fetch(request);
     }
