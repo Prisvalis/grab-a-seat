@@ -2,10 +2,20 @@
 // 以 Cloudflare Workers 部署（本檔案即為 Worker 的 main 進入點）
 // 部署方式請見 README.md
 
-const ALLOWED_ORIGINS = ["https://prisvalis.com", "https://www.prisvalis.com"];
+const ALLOWED_ORIGINS = ["https://prisvalis.com", "https://www.prisvalis.com",
+                        "https://prisvalis.tw", "https://www.prisvalis.tw",
+                        "https://prisvalis.app", "https://www.prisvalis.app",
+                        "https://算力.台灣", "https://www.算力.台灣",
+                        "https://xn--tfrr76g.xn--kpry57d/", "https://www.xn--tfrr76g.xn--kpry57d/",
+                        "https://62010947.xyz", "https://www.62010947.xyz"];
 
 // 已正式代管內容、應直接放行給上游服務的網域（純 hostname，不含 scheme）
-const ASSIGNED_HOSTS = new Set(["prisvalis.com", "www.prisvalis.com"]);
+const ASSIGNED_HOSTS = new Set(["prisvalis.com", "www.prisvalis.com",
+                        "prisvalis.tw", "www.prisvalis.tw",
+                        "prisvalis.app", "www.prisvalis.app",
+                        "算力.台灣", "www.算力.台灣",
+                        "xn--tfrr76g.xn--kpry57d/", "www.xn--tfrr76g.xn--kpry57d/",
+                        "62010947.xyz", "www.62010947.xyz"]);
 
 function corsHeaders(origin) {
   const allowed = ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
